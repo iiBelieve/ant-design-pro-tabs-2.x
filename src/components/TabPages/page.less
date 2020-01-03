@@ -1,0 +1,56 @@
+.tab_style() {
+  .ant-tabs-card-bar {
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    .ant-tabs-nav-container {
+      font-size: 13px;
+      height: 39px;
+    }
+    .ant-tabs-tab {
+      border-radius: 0px;
+      border-top: 0px;
+      line-height: 40px;
+      padding: 0 20px;
+      height: 39px;
+      background-color: #fff;
+      transition: none;
+      .anticon-close {
+        display: none;
+      }
+    }
+    .ant-tabs-tab-active {
+      padding-bottom: 0px;
+      background-color: #fafafa;
+      height: 38px;
+      border-bottom: none;
+      position: relative;
+      .anticon-close {
+        display: inline-block;
+      }
+    }
+    .ant-tabs-tab-active::after {
+      content: '';
+      width: 100%;
+      height: 2px;
+      background-color: #336699;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+    }
+    .ant-tabs-tab:hover {
+      padding-left: 30px;
+      padding-right: 30px;
+      .anticon-close {
+        color: #333;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.content_tab {
+  :global {
+    .tab_style() !important;
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "fd_fsid": "1",
+    "key":"/libraries/drag",
+    "Name": "拖拽",
+    "IconUrl": "image/drag.png",
+    "init_enable": true
+  },
+  {
+    "fd_fsid": "2",
+    "key":"/libraries/braft-editor",
+    "Name": "富文本编译器",
+    "IconUrl": "image/braft-editor.png",
+    "init_enable": true
+  },
+  {
+    "fd_fsid": "3",
+    "key":"/libraries/react-color",
+    "Name": "拾色器",
+    "IconUrl": "image/react-color.png",
+    "init_enable": true
+  },
+  {
+    "fd_fsid": "7",
+    "key":"/libraries/scrollbars",
+    "Name": "滚动条",
+    "IconUrl": "image/scroll.png",
+    "init_enable": true
+  },
+  {
+    "fd_fsid": "8",
+    "key":"/libraries/reactdatagrid",
+    "Name": "ReactDatagrid",
+    "IconUrl": "image/table.png",
+    "init_enable": true
+  },
+  {
+    "fd_fsid": "4",
+    "key":"/component/table",
+    "Name": "多功能Table",
+    "IconUrl": "image/table.png",
+    "init_enable": true
+  },
+  {
+    "fd_fsid": "5",
+    "key":"/component/select-tree",
+    "Name": "多选SelectTree",
+    "IconUrl": "image/select-tree.png",
+    "init_enable": true
+  },
+  {
+    "fd_fsid": "6",
+    "key":"/account/center",
+    "Name": "个人中心",
+    "IconUrl": "image/center.png",
+    "init_enable": true
+  }
+]
